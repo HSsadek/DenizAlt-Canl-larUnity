@@ -119,97 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &133594738
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 133594740}
-  - component: {fileID: 133594739}
-  m_Layer: 0
-  m_Name: BackgroundMusic
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &133594739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133594738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16be572f3eca12c43b3c327fe92220be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BackgroundMusic
-  musicClip: {fileID: 8300000, guid: 7df7ffe71227cd14a976b7d004ae5148, type: 3}
-  volume: 0.3
-  loop: 1
---- !u!4 &133594740
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133594738}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14372, y: 0.03445, z: 0.04229}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &353657726
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 353657728}
-  - component: {fileID: 353657727}
-  m_Layer: 0
-  m_Name: UISystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &353657727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353657726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 807913b554b4f564a9ca0b58d07486f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIManager
---- !u!4 &353657728
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353657726}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14372, y: 0.03445, z: 0.04229}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &590330967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -278,10 +187,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TunaFish
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -292,9 +197,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       insertIndex: -1
       addedObject: {fileID: 838057354}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 838057355}
   m_SourcePrefab: {fileID: 100100000, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
 --- !u!1 &705507993
 GameObject:
@@ -437,7 +339,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 2170d9b9de8334344a6f4e613a455773, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -482,7 +384,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -522,23 +424,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &838057355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 838057351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcb5ff59d868f5419466b32a9b73f38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FishUITrigger
-  fishName: "Mavi Y\xFCzge\xE7li Orkinos"
-  fishDescription: "Mavi y\xFCzge\xE7li orkinos, okyanuslar\u0131n en h\u0131zl\u0131
-    y\xFCzen bal\u0131klar\u0131ndan biridir. 80 km/s h\u0131za ula\u015Fabilir ve
-    2 metre boyunda olabilir. Atlantik, Pasifik ve Hint Okyanuslar\u0131nda ya\u015Far."
-  fishAudio: {fileID: 0}
 --- !u!1 &1208427049
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,7 +561,6 @@ GameObject:
   - component: {fileID: 1379756664}
   - component: {fileID: 1379756663}
   - component: {fileID: 1379756665}
-  - component: {fileID: 1379756666}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -712,7 +596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 0
+  StatusFilter: 1
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -740,34 +624,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 838057351}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   OnTargetLost:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 838057351}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1379756664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -794,25 +654,8 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1379756666}
+  mPreview: {fileID: 1379756665}
 --- !u!114 &1379756665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1379756661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcb5ff59d868f5419466b32a9b73f38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FishUITrigger
-  fishName: "Mavi Y\xFCzge\xE7li Orkinos"
-  fishDescription: "Mavi y\xFCzge\xE7li orkinos, okyanuslar\u0131n en h\u0131zl\u0131
-    y\xFCzen bal\u0131klar\u0131ndan biridir. 80 km/s h\u0131za ula\u015Fabilir ve
-    2 metre boyunda olabilir. Atlantik, Pasifik ve Hint Okyanuslar\u0131nda ya\u015Far."
-  fishAudio: {fileID: 0}
---- !u!114 &1379756666
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1071,5 +914,3 @@ SceneRoots:
   m_Roots:
   - {fileID: 705507995}
   - {fileID: 1582344455}
-  - {fileID: 353657728}
-  - {fileID: 133594740}
