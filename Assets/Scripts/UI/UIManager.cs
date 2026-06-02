@@ -57,7 +57,16 @@ public class UIManager : MonoBehaviour
             return;
         }
 
-        if (currentState == AppState.FishFound || isTransitioning) return;
+        if (isTransitioning) return;
+
+        // Zaten bir balık gösteriliyorsa, bilgiyi güncelle (geçiş animasyonu olmadan)
+        if (currentState == AppState.FishFound)
+        {
+            fishNameText.text = name;
+            fishDescText.text = description;
+            return;
+        }
+
         currentState = AppState.FishFound;
         fishNameText.text = name;
         fishDescText.text = description;

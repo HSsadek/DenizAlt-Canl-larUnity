@@ -232,11 +232,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.005
+      value: -0.00011565862
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.122
+      value: 0.12437666
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       propertyPath: m_LocalPosition.z
@@ -244,7 +244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99576044
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       propertyPath: m_LocalRotation.x
@@ -256,7 +256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.09198449
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -268,7 +268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -10.556
       objectReference: {fileID: 0}
     - target: {fileID: -5945707278733007396, guid: 20b0f81a544fb414eb0d78f050f8f941, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -539,6 +539,135 @@ MonoBehaviour:
     y\xFCzen bal\u0131klar\u0131ndan biridir. 80 km/s h\u0131za ula\u015Fabilir ve
     2 metre boyunda olabilir. Atlantik, Pasifik ve Hint Okyanuslar\u0131nda ya\u015Far."
   fishAudio: {fileID: 0}
+--- !u!1 &937397057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+  m_PrefabInstance: {fileID: 1315038465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &937397058 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+  m_PrefabInstance: {fileID: 1315038465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &937397059
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937397057}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 68e01d6b2e76bd843b154c2b2f492928, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &937397060
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937397057}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: a2685ab0e3d06ab4496f0d36c8f0d913, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1208427049
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,6 +680,7 @@ GameObject:
   - component: {fileID: 1208427052}
   - component: {fileID: 1208427051}
   - component: {fileID: 1208427053}
+  - component: {fileID: 1208427054}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -571,7 +701,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1959371918}
+  - {fileID: 937397058}
   m_Father: {fileID: 1582344455}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1208427051
@@ -586,7 +716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -614,10 +744,34 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 937397057}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 937397057}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1208427052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +818,104 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1208427052}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1208427054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208427049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bcb5ff59d868f5419466b32a9b73f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishUITrigger
+  fishName: "K\xF6pekbal\u0131\u011F\u0131"
+  fishDescription: "Okyanusun en g\xFC\xE7l\xFC avc\u0131s\u0131! Tam 300 di\u015F
+    s\u0131ras\u0131 var ve d\xFC\u015Fen di\u015Flerin yerine yenileri \xE7\u0131kar!\n\n6
+    metre uzunlu\u011Funda olabilir, bir araba kadar uzun!\n\nT\xFCm okyanuslarda
+    ya\u015Far ama \u0131l\u0131k sular\u0131 sever.\n\n400 milyon y\u0131ld\u0131r
+    d\xFCnyada ya\u015F\u0131yor, dinozorlardan bile eski!"
+  fishAudio: {fileID: 0}
+--- !u!1001 &1315038465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1208427050}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08360201
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08360201
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.08360201
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0016023964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.03841551
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.019114286
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98172194
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.10580761
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.03990825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.15308191
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.276
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 6.484
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -18.367
+      objectReference: {fileID: 0}
+    - target: {fileID: -6997733842791713512, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa57833adcb715c4ba33e1ac185fcb27, type: 2}
+    - target: {fileID: 919132149155446097, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      propertyPath: m_Name
+      value: shark
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 937397059}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 937397060}
+  m_SourcePrefab: {fileID: 100100000, guid: 15874668fff97ba45aa92ca262c6c650, type: 3}
 --- !u!1 &1379756661
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,14 +944,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379756661}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.015525483, w: 0.9998795}
+  m_LocalPosition: {x: -0.0029990626, y: 0.00036661327, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 838057352}
   m_Father: {fileID: 1582344455}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.779}
 --- !u!114 &1379756663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -953,118 +1205,6 @@ Transform:
   - {fileID: 1208427050}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1959371917
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1959371918}
-  - component: {fileID: 1959371921}
-  - component: {fileID: 1959371920}
-  - component: {fileID: 1959371919}
-  m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1959371918
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959371917}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.012700006, y: 0.0448, z: 0}
-  m_LocalScale: {x: 0.10606965, y: 0.10606965, z: 0.10606965}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1208427050}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1959371919
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959371917}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1959371920
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959371917}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 938377a79a0134b418cd29939110f8fc, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1959371921
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959371917}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
